@@ -9,6 +9,8 @@
 6) 6._Escanear Todo rango de Direcciones IP
 7) 7._Buscar Malware
 8) 8._Escaneo Zombie
+
+
 #recuerde instalar nmap con 
 apt install nmap
 #también necesitará iproute2, instale con
