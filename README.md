@@ -17,6 +17,7 @@ apt install nmap
 apt install iproute2 -y
 #verifique la instalación correcta de lolcat o instale desde su terminal con :
 gem install lolcat
-# para el funcionamiento de todas las funciones necesitará ser Root
+#es funcional para equipos con  android  9 o anterior usando el emulador de terminal  termux
+# para el funcionamiento de la mayoria de funciones necesitará ser Root
 
 # supr_nmap
