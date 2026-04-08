@@ -4,7 +4,7 @@
 check_install() {
     dpkg -s "$1" &> /dev/null || {
         echo "Instalando $1..."
-        apt-get install "$1" -y
+       sudo apt install "$1" -y
     }
 }
 
@@ -54,7 +54,7 @@ colors "$(figlet 'For_Routers')"
 
 
 # Obtener la dirección IP de la puerta de enlace (router)
-gateway_ip=$(ip route | awk '{print $9}')
+gateway_ip=$(ip route | awk '/default/ {print $3}')
 
 # Extraer la parte inicial de la dirección IP (antes del último punto)
 ip_prefix=${gateway_ip%.*}
