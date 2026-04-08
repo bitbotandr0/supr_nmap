@@ -10,14 +10,12 @@
 7) 7._Buscar Malware
 8) 8._Escaneo Zombie
 
-
+SCRIPT FUNCIONAL  Y PROBADO EN KALI Y ALTA COMPATIBILIDAD CON DISTROS BASADAS EN DEBIAN
 #recuerde instalar nmap con 
-apt install nmap
+sudo apt install nmap
 #también necesitará iproute2, instale con
-apt install iproute2 -y
+sudo apt install iproute2 -y
 #verifique la instalación correcta de lolcat o instale desde su terminal con :
 gem install lolcat
-#es funcional para equipos con  android  9 o anterior usando el emulador de terminal  termux
-# para el funcionamiento de la mayoria de funciones necesitará ser Root
-
+# para el funcionamiento de la mayoria de opciones  necesitará ser Root
 # supr_nmap
